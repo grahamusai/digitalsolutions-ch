@@ -35,7 +35,7 @@ export function AppverseFooter() {
             </div>
             <h3 className="text-lg font-bold text-white mb-2">{t('contact.email.title')}</h3>
             <a href="mailto:info@digitalsolutions.ch" className="text-white/70 hover:text-lime-300 transition-colors">
-              info@digitalsolutions.ch
+              info@digitalsolutions101.com
             </a>
           </div>
 
@@ -44,8 +44,8 @@ export function AppverseFooter() {
               <Phone className="h-6 w-6" />
             </div>
             <h3 className="text-lg font-bold text-white mb-2">{t('contact.phone.title')}</h3>
-            <a href="tel:+41123456789" className="text-white/70 hover:text-lime-300 transition-colors">
-              +41 12 345 67 89
+            <a href="tel:+41767041612" className="text-white/70 hover:text-lime-300 transition-colors">
+              +41 76 704 1612
             </a>
           </div>
 

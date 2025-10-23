@@ -20,7 +20,7 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('ch');
 
   // Load language from localStorage on mount
   useEffect(() => {
@@ -39,11 +39,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const t = (key: string): any => {
     const keys = key.split('.');
     let value: any = translations[language];
-    
+
     for (const k of keys) {
       value = value?.[k];
     }
-    
+
     return value || key;
   };
 
