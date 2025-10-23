@@ -34,31 +34,153 @@
   },
   "services": {
     "title": "Our Services",
-    "web": {
-      "title": "Web Development",
-      "description": "Modern, responsive websites and web applications"
-    },
-    "mobile": {
-      "title": "Mobile Applications",
-      "description": "Native and cross-platform mobile solutions"
-    },
-    "cloud": {
-      "title": "Cloud Architecture",
-      "description": "Scalable cloud infrastructure and solutions"
-    },
-    "security": {
-      "title": "Cybersecurity",
-      "description": "Comprehensive security solutions and consulting"
+    "subtitle": "From web development to cybersecurity, we offer comprehensive digital solutions for your business",
+    "items": {
+      "webDev": {
+        "title": "Web Development",
+        "description": "Modern, responsive websites and web applications that work perfectly on all devices and load fast.",
+        "features": [
+          "Responsive Design",
+          "SEO Optimization",
+          "Performance Tuning",
+          "CMS Integration",
+          "E-Commerce Solutions"
+        ]
+      },
+      "appDev": {
+        "title": "Mobile App Development",
+        "description": "Native and cross-platform mobile applications for iOS and Android using cutting-edge technology.",
+        "features": [
+          "iOS & Android Apps",
+          "Cross-Platform Development",
+          "App Store Optimization",
+          "Push Notifications",
+          "Offline Functionality"
+        ]
+      },
+      "businessSoftware": {
+        "title": "Business Software",
+        "description": "Custom software solutions perfectly tailored to your business processes and requirements.",
+        "features": [
+          "Custom CRM Systems",
+          "ERP Solutions",
+          "Workflow Automation",
+          "Business Intelligence",
+          "Integration Services"
+        ]
+      },
+      "dataManagement": {
+        "title": "Data Management",
+        "description": "Professional database solutions and data analytics for better business decision making.",
+        "features": [
+          "Database Design",
+          "Data Migration",
+          "Analytics & Reporting",
+          "Data Warehousing",
+          "Real-time Processing"
+        ]
+      },
+      "cloudArchitecture": {
+        "title": "Cloud Architecture",
+        "description": "Scalable and secure cloud infrastructure that grows with your business needs.",
+        "features": [
+          "AWS/Azure/GCP",
+          "Microservices Architecture",
+          "DevOps & CI/CD",
+          "Container Orchestration",
+          "Serverless Computing"
+        ]
+      },
+      "cyberSecurity": {
+        "title": "Cybersecurity",
+        "description": "Comprehensive security solutions to protect your data and systems from cyber threats.",
+        "features": [
+          "Security Audits",
+          "Penetration Testing",
+          "GDPR Compliance",
+          "Identity Management",
+          "Incident Response"
+        ]
+      },
+      "itSupport": {
+        "title": "IT Support & Maintenance",
+        "description": "Reliable IT support and maintenance for smooth operation of your systems.",
+        "features": [
+          "24/7 Monitoring",
+          "System Updates",
+          "Backup & Recovery",
+          "Performance Optimization",
+          "Technical Support"
+        ]
+      }
     }
   },
   "portfolio": {
-    "title": "Our Work",
-    "viewProject": "View Project"
+    "title": "Our Portfolio",
+    "subtitle": "Explore our recent projects and see how we've helped businesses transform their digital presence",
+    "viewProject": "View Project",
+    "projects": {
+      "fintech": {
+        "title": "FinTech Mobile App",
+        "category": "Mobile Application",
+        "description": "A secure banking app with real-time transactions and biometric authentication for iOS and Android.",
+        "tags": ["React Native", "iOS", "Android", "Security"]
+      },
+      "ecommerce": {
+        "title": "E-Commerce Platform",
+        "category": "Web Application",
+        "description": "Full-featured online store with inventory management, payment processing, and analytics dashboard.",
+        "tags": ["Next.js", "E-commerce", "Payment Integration"]
+      },
+      "healthcare": {
+        "title": "Healthcare Portal",
+        "category": "Web Application",
+        "description": "Patient management system with appointment scheduling, medical records, and telemedicine features.",
+        "tags": ["React", "Healthcare", "HIPAA Compliant"]
+      },
+      "fitness": {
+        "title": "Fitness Tracking App",
+        "category": "Mobile Application",
+        "description": "Cross-platform fitness app with workout tracking, nutrition planning, and social features.",
+        "tags": ["Flutter", "iOS", "Android", "Health"]
+      },
+      "crm": {
+        "title": "Enterprise CRM",
+        "category": "Custom Software",
+        "description": "Custom CRM solution with sales pipeline management, customer analytics, and automation tools.",
+        "tags": ["Custom Development", "CRM", "Analytics"]
+      },
+      "realestate": {
+        "title": "Real Estate Platform",
+        "category": "Web Application",
+        "description": "Property listing platform with virtual tours, mortgage calculator, and agent management system.",
+        "tags": ["Next.js", "Real Estate", "Virtual Tours"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Let's discuss how we can help transform your digital presence and drive your business forward",
+    "cta": "Get in Touch",
+    "email": {
+      "title": "Email Us"
+    },
+    "phone": {
+      "title": "Call Us"
+    },
+    "location": {
+      "title": "Visit Us",
+      "address": "Zurich, Switzerland"
+    }
   },
   "footer": {
     "company": "Digital Solutions",
-    "address": "Zurich, Switzerland",
-    "rights": "All rights reserved"
+    "description": "Swiss-based digital agency delivering innovative solutions in web development, mobile apps, cloud architecture, and cybersecurity.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "copyright": "© 2025 Digital Solutions — Based in Switzerland",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   },
   "common": {
     "learnMore": "Learn More",

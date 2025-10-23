@@ -34,31 +34,179 @@
   },
   "services": {
     "title": "Üseri Dienschtleischtige",
-    "web": {
-      "title": "Web Entwicklig",
-      "description": "Moderni, responsive Websiite und Web Applikatione"
-    },
-    "mobile": {
-      "title": "Mobile Applikatione",
-      "description": "Native und cross-platform Mobile Lösige"
-    },
-    "cloud": {
-      "title": "Cloud Architektur",
-      "description": "Skalierbare Cloud Infrastruktur und Lösige"
-    },
-    "security": {
-      "title": "Cybersicherheit",
-      "description": "Umfassendi Sicherheitslösige und Beratig"
+    "subtitle": "Vo Webentwicklig bis Cybersicherheit - mir bieted umfassendi digitali Lösige für dis Undernehme",
+    "items": {
+      "webDev": {
+        "title": "Web Entwicklig",
+        "description": "Moderni, responsive Websiite und Web-Applikatione wo perfekt uf alli Grät funktioniere und schnell lade.",
+        "features": [
+          "Responsive Design",
+          "SEO Optimierig",
+          "Performance Tuning",
+          "CMS Integration",
+          "E-Commerce Lösige"
+        ]
+      },
+      "appDev": {
+        "title": "Mobile App Entwicklig",
+        "description": "Native und cross-platform Mobile Applikatione für iOS und Android mit modernschte Technologie.",
+        "features": [
+          "iOS & Android Apps",
+          "Cross-Platform Entwicklig",
+          "App Store Optimierig",
+          "Push Notifications",
+          "Offline Funktionalität"
+        ]
+      },
+      "businessSoftware": {
+        "title": "Business Software",
+        "description": "Massgeschniderti Software-Lösige wo perfekt uf dini Gschäftsprozäss abgstimmt sind.",
+        "features": [
+          "Custom CRM Systeme",
+          "ERP Lösige",
+          "Workflow Automatisierig",
+          "Business Intelligence",
+          "Integration Services"
+        ]
+      },
+      "dataManagement": {
+        "title": "Date Management",
+        "description": "Professionelli Datebank-Lösige und Date-Analytics für besseri Gschäftsentscheidunge.",
+        "features": [
+          "Datebank Design",
+          "Date Migration",
+          "Analytics & Reporting",
+          "Date Warehousing",
+          "Real-time Processing"
+        ]
+      },
+      "cloudArchitecture": {
+        "title": "Cloud Architektur",
+        "description": "Skalierbare und sicheri Cloud-Infrastruktur wo mit dim Undernehme mitwachst.",
+        "features": [
+          "AWS/Azure/GCP",
+          "Microservices Architektur",
+          "DevOps & CI/CD",
+          "Container Orchestration",
+          "Serverless Computing"
+        ]
+      },
+      "cyberSecurity": {
+        "title": "Cybersicherheit",
+        "description": "Umfassendi Sicherheitslösige zum Schutz vo dine Date und Systeme vor Cyber-Bedrohige.",
+        "features": [
+          "Security Audits",
+          "Penetration Testing",
+          "GDPR Compliance",
+          "Identity Management",
+          "Incident Response"
+        ]
+      },
+      "itSupport": {
+        "title": "IT Support & Wartung",
+        "description": "Zuverlässigi IT-Unterstützig und Wartung für en reibungslose Betrieb vo dine Systeme.",
+        "features": [
+          "24/7 Monitoring",
+          "System Updates",
+          "Backup & Recovery",
+          "Performance Optimization",
+          "Technical Support"
+        ]
+      }
     }
   },
   "portfolio": {
     "title": "Üseri Arbeit",
-    "viewProject": "Projekt aaluege"
+    "subtitle": "Entdecke üseri aktuellste Projekt und gseh wie mir Undernehme bi de digitale Transformation gholfe händ",
+    "viewProject": "Projekt aaluege",
+    "projects": {
+      "fintech": {
+        "title": "FinTech Mobile App",
+        "category": "Mobile Applikation",
+        "description": "E sicheri Banking-App mit Echtziit-Transaktione und biometrischer Authentifizierig für iOS und Android.",
+        "tags": [
+          "React Native",
+          "iOS",
+          "Android",
+          "Sicherheit"
+        ]
+      },
+      "ecommerce": {
+        "title": "E-Commerce Plattform",
+        "category": "Web Applikation",
+        "description": "Vollständigi Online-Shop mit Lagerverwaltung, Zahlungsabwicklig und Analytics Dashboard.",
+        "tags": [
+          "Next.js",
+          "E-Commerce",
+          "Payment Integration"
+        ]
+      },
+      "healthcare": {
+        "title": "Gsundheits-Portal",
+        "category": "Web Applikation",
+        "description": "Patiente-Management-System mit Terminbuchig, Krankeakte und Telemedizin-Funktione.",
+        "tags": [
+          "React",
+          "Gsundheitswese",
+          "HIPAA Konform"
+        ]
+      },
+      "fitness": {
+        "title": "Fitness Tracking App",
+        "category": "Mobile Applikation",
+        "description": "Cross-Platform Fitness-App mit Workout-Tracking, Ernährigsplanig und soziale Features.",
+        "tags": [
+          "Flutter",
+          "iOS",
+          "Android",
+          "Gsundheit"
+        ]
+      },
+      "crm": {
+        "title": "Enterprise CRM",
+        "category": "Custom Software",
+        "description": "Massgeschniderti CRM-Lösung mit Sales-Pipeline-Management, Kunde-Analytics und Automatisierigs-Tools.",
+        "tags": [
+          "Custom Entwicklig",
+          "CRM",
+          "Analytics"
+        ]
+      },
+      "realestate": {
+        "title": "Immobilie-Plattform",
+        "category": "Web Applikation",
+        "description": "Immobilie-Plattform mit virtuelle Rundgäng, Hypotheke-Rechner und Makler-Management-System.",
+        "tags": [
+          "Next.js",
+          "Immobilie",
+          "Virtuelli Rundgäng"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Bereit für dis Projekt?",
+    "subtitle": "Lah üs diskutiere wie mir dir chönd helfe dini digitali Präsenz z'verwandle und dis Gschäft vorwärts z'bringe",
+    "cta": "Kontakt ufnäh",
+    "email": {
+      "title": "E-Mail schribe"
+    },
+    "phone": {
+      "title": "Aalüte"
+    },
+    "location": {
+      "title": "Üs bsueche",
+      "address": "Züri, Schwiiz"
+    }
   },
   "footer": {
     "company": "Digital Solutions",
-    "address": "Züri, Schwiiz",
-    "rights": "Alli Rächt vorbehalte"
+    "description": "Schwiizer Digital-Agentur wo innovativi Lösige i Webentwicklig, Mobile Apps, Cloud-Architektur und Cybersicherheit lieferet.",
+    "quickLinks": "Schnelli Links",
+    "connect": "Verbinde",
+    "copyright": "© 2025 Digital Solutions — Basiert i de Schwiiz",
+    "privacy": "Dateschutz",
+    "terms": "Nutzigsbedingige"
   },
   "common": {
     "learnMore": "Meh erfahre",

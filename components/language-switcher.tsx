@@ -14,7 +14,7 @@ export function LanguageSwitcher() {
         onClick={() => setLanguage('en')}
         className={`text-xs ${language === 'en'
             ? 'bg-lime-400 text-black hover:bg-lime-300'
-            : 'border-white/30 text-white hover:border-lime-400 hover:text-lime-400 hover:bg-lime-400/10'
+            : 'border-white/30 text-black hover:border-lime-400 hover:text-lime-400 hover:bg-lime-400/10'
           }`}
       >
         EN
@@ -25,7 +25,7 @@ export function LanguageSwitcher() {
         onClick={() => setLanguage('ch')}
         className={`text-xs ${language === 'ch'
             ? 'bg-lime-400 text-black hover:bg-lime-300'
-            : 'border-white/30 text-white hover:border-lime-400 hover:text-lime-400 hover:bg-lime-400/10'
+            : 'border-white/30 text-black hover:border-lime-400 hover:text-lime-400 hover:bg-lime-400/10'
           }`}
       >
         CH
