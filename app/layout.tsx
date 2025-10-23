@@ -7,6 +7,7 @@ import Plasma from "@/components/plasma"
 import { Suspense } from "react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import { LanguageProvider } from "@/components/language-provider"
 
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 
@@ -81,16 +82,18 @@ export default function RootLayout({
         </Script>
       </head>
       <body>
-        <Suspense fallback={null}>
-          <div className="fixed inset-0 z-0 bg-black">
-            <Plasma color="#8b5cf6" speed={0.8} direction="forward" scale={1.5} opacity={0.4} mouseInteractive={true} />
-          </div>
-          <div className="relative z-10">{children}</div>
-        </Suspense>
+        <LanguageProvider>
+          <Suspense fallback={null}>
+            <div className="fixed inset-0 z-0 bg-black">
+              <Plasma color="#8b5cf6" speed={0.8} direction="forward" scale={1.5} opacity={0.4} mouseInteractive={true} />
+            </div>
+            <div className="relative z-10">{children}</div>
+          </Suspense>
 
-        {/* Vercel Speed Insights and Analytics components */}
-        <SpeedInsights />
-        <Analytics />
+          {/* Vercel Speed Insights and Analytics components */}
+          <SpeedInsights />
+          <Analytics />
+        </LanguageProvider>
       </body>
     </html>
   )

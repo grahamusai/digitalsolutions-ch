@@ -2,7 +2,6 @@ import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
 import { Services } from "@/components/services"
 import { Portfolio } from "@/components/portfolio"
-import { LogoMarquee } from "@/components/logo-marquee"
 import { AppverseFooter } from "@/components/appverse-footer"
 import Script from "next/script"
 
@@ -33,12 +32,11 @@ export default function Page() {
 
   return (
     <>
-      <main className="min-h-[100dvh] text-white">
+      <main className="min-h-dvh text-white">
         <SiteHeader />
         <Hero />
         <Services />
         <Portfolio />
-        { /*<LogoMarquee /> */}
         <AppverseFooter />
       </main>
 

@@ -1,0 +1,68 @@
+{
+  "navigation": {
+    "home": "Hei",
+    "services": "Dienschtleischtige",
+    "portfolio": "Portfolio",
+    "about": "Über üs",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "brand": "Digital Solutions",
+    "title1": "VERWANDLE DINI",
+    "title2": "DIGITALI PRÄSENZ",
+    "title3": "MIT INNOVATION",
+    "description": "Vo Webentwicklig bis Cybersicherheit - mir liefered modernschti Lösige wo dis Gschäft vorwärts bringe. Basiert i de Schwiiz, vertraut uf de ganze Wält.",
+    "cta": "Projekt starte",
+    "features": {
+      "fastDelivery": {
+        "title": "Schnelli Lieferig",
+        "description": "Launch i Wuche, nöd Mönet"
+      },
+      "swissQuality": {
+        "title": "Schwiizer Qualität",
+        "description": "Präzision und Zuverlässigkeit"
+      },
+      "fullSupport": {
+        "title": "Volli Unterstützig",
+        "description": "Mir sind bi dir bi jedem Schritt"
+      },
+      "scalable": {
+        "title": "Skalierbar",
+        "description": "Wachse ohni Gränze"
+      }
+    }
+  },
+  "services": {
+    "title": "Üseri Dienschtleischtige",
+    "web": {
+      "title": "Web Entwicklig",
+      "description": "Moderni, responsive Websiite und Web Applikatione"
+    },
+    "mobile": {
+      "title": "Mobile Applikatione",
+      "description": "Native und cross-platform Mobile Lösige"
+    },
+    "cloud": {
+      "title": "Cloud Architektur",
+      "description": "Skalierbare Cloud Infrastruktur und Lösige"
+    },
+    "security": {
+      "title": "Cybersicherheit",
+      "description": "Umfassendi Sicherheitslösige und Beratig"
+    }
+  },
+  "portfolio": {
+    "title": "Üseri Arbeit",
+    "viewProject": "Projekt aaluege"
+  },
+  "footer": {
+    "company": "Digital Solutions",
+    "address": "Züri, Schwiiz",
+    "rights": "Alli Rächt vorbehalte"
+  },
+  "common": {
+    "learnMore": "Meh erfahre",
+    "contactUs": "Kontaktier üs",
+    "getQuote": "Offerte hole"
+  }
+}

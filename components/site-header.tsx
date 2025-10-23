@@ -4,13 +4,17 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
+import { useLanguage } from './language-provider'
+import { LanguageSwitcher } from './language-switcher'
 
 export function SiteHeader() {
+  const { t } = useLanguage();
+  
   const links = [
-    { href: "#services", label: "Services" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#about", label: "About" },
-    { href: "#contact", label: "Contact" },
+    { href: "#services", label: t('navigation.services') },
+    { href: "#portfolio", label: t('navigation.portfolio') },
+    { href: "#about", label: t('navigation.about') },
+    { href: "#contact", label: t('navigation.contact') },
   ]
 
   return (
@@ -34,15 +38,16 @@ export function SiteHeader() {
             ))}
           </nav>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:flex">
+          {/* Desktop Language Switcher & CTA */}
+          <div className="hidden md:flex items-center gap-4">
+            <LanguageSwitcher />
             <Button
               asChild
               className="bg-lime-400 text-black font-medium rounded-full px-6 py-2.5
                          hover:bg-lime-300 hover:shadow-md hover:scale-[1.02]
                          transition-all"
             >
-              <Link href="#contact">Start Your Project</Link>
+              <Link href="#contact">{t('navigation.contact')}</Link>
             </Button>
           </div>
 
@@ -81,15 +86,18 @@ export function SiteHeader() {
                   ))}
                 </nav>
 
-                {/* CTA Button at Bottom */}
-                <div className="mt-auto border-t border-gray-800 p-4">
+                {/* Language Switcher & CTA Button at Bottom */}
+                <div className="mt-auto border-t border-gray-800 p-4 space-y-4">
+                  <div className="flex justify-center">
+                    <LanguageSwitcher />
+                  </div>
                   <Button
                     asChild
                     className="w-full bg-lime-400 text-black font-medium rounded-full px-6 py-2.5
                                hover:bg-lime-300 hover:shadow-md hover:scale-[1.02]
                                transition-all"
                   >
-                    <Link href="#contact">Start Your Project</Link>
+                    <Link href="#contact">{t('navigation.contact')}</Link>
                   </Button>
                 </div>
               </SheetContent>
